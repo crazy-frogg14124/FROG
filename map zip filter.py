@@ -7,10 +7,10 @@ print('(1)', end_l)
 l1 = [1,2,3,4,5,6,7,8,9,10]
 l2 = [1,2,3,4,5,6,7,8,9,10]
 l3 = [1,2,3,4,5,6,7,8,9,10]
-def umnogenie(num):
+def umnog(num):
     return num[0]*num[1]*num[2]
 all_l = list(zip(l1, l2, l3))
-end_l = list(map(umnogenie, all_l))
+end_l = list(map(umnmog, all_l))
 print('(2)', end_l)
 
 l1 = [1,2,3,4,5,6,7,8,9,10]
